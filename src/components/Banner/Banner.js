@@ -1,11 +1,12 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../images/pic1.jpg';
-import banner2 from '../../images/pic2.jpg';
-import banner3 from '../../images/pic3.jpg';
-import banner4 from '../../images/pic4.jpg';
-import banner5 from '../../images/pic5.jpg';
-import banner6 from '../../images/pic6.jpg';
+import banner1 from '../../images/ban1.jpg';
+import banner2 from '../../images/ban2.jpg';
+import banner3 from '../../images/ban3.jpg';
+import banner4 from '../../images/ban4.jpg';
+import banner5 from '../../images/ban5.jpg';
+import banner6 from '../../images/ban6.jpg';
+import banner7 from '../../images/ban7.jpg';
 
 const Banner = () => {
     return (
@@ -13,7 +14,7 @@ const Banner = () => {
             <Carousel>
 
                 <Carousel.Item>
-                    <img className='img-fluid' src={banner1} height={600} alt="" />
+                    <img className='img-fluid ' src={banner1} height={600} alt="" />
                 </Carousel.Item>
 
                 <Carousel.Item>
@@ -35,6 +36,12 @@ const Banner = () => {
                 <Carousel.Item>
                     <img className='img-fluid' src={banner6} height={600} alt="" />
                 </Carousel.Item>
+
+                <Carousel.Item>
+                    <img className='img-fluid' src={banner7} height={600} alt="" />
+                </Carousel.Item>
+
+                
 
             </Carousel>
         </div>
