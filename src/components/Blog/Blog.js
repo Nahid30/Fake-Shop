@@ -6,10 +6,10 @@ const Blog = () => {
     return (
         <div >
             <div>
-                <img src={coming} height={200} width={500} alt="" />
+                <img src={coming} height={200} width={340} alt="" />
             </div>
             <div className='d-flex justify-content-center'>
-                <img src={coderBoth} height={300} width={400} alt="" />
+                <img src={coderBoth} height={300} width={340} alt="" />
             </div>
         </div>
     );
