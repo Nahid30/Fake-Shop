@@ -7,6 +7,7 @@ import NotFound from './components/NotFound/NotFound';
 import Footer from './components/Footer/Footer';
 import ProductDetails from './components/ProductDetails/ProductDetails';
 import './App.css';
+import Blog from './components/Blog/Blog';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path='/products' element={<Products />} ></Route>
+        <Route path='/blogs' element={<Blog />} ></Route>
         <Route path='/product/:id' element={<ProductDetails/>} ></Route>
 
         <Route path='*' element={<NotFound></NotFound>}></Route>
