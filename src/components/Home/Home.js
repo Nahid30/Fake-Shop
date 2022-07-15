@@ -4,6 +4,7 @@ import { Row } from 'react-bootstrap';
 import Product from '../Product/Product';
 import { useNavigate } from 'react-router-dom';
 import Loading from '../Loading/Loading';
+import Brands from '../Brands/Brands';
 
 
 
@@ -26,7 +27,7 @@ const Home = () => {
 
 
     return (
-        
+
         <div>
 
             <Banner></Banner>
@@ -52,6 +53,8 @@ const Home = () => {
                 <button className='btn btn-warning d-block mx-auto mt-4' onClick={() => navigate('/products')}>See All Products</button>
 
             </div>
+
+            <Brands></Brands>
 
         </div>
     );
